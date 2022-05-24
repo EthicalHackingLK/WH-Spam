@@ -2,7 +2,7 @@
 <h1 >Termux Commands</h1>
 
 
-<code>pkg update && upgrate </code><br>
+<code>pkg update && upgrade </code><br>
 
 <code>pkg install python</code><br>
 
@@ -16,7 +16,7 @@
 <h1 >Linux Commands</h1>
 
 
-<code>sudo apt update && upgrate</code>
+<code>sudo apt update && upgrade</code>
 
 <code>sudo apt install python</code>
 
