@@ -80,7 +80,7 @@ mylogos = ["""\033[34m
                             ▀▄▀▄▀ █▀█ ░░ ▄█ █▀▀ █▀█ █░▀░█
                                                
                                                Ethical Hacking LK
-                                               Virtion 1.2"""]
+                                               Virstion 1.2"""]
 
 def auther():
     print("""\033[31m
