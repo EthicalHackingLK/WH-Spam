@@ -1,5 +1,5 @@
 cd ..
-rm WH-Spam
+rm -rf WH-Spam
 apt update  && apt upgrade -y
 clear
 apt install python wget curl git -y
