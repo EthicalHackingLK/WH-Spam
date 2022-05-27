@@ -4,13 +4,13 @@
 
 <code>pkg update && upgrade </code><br>
 
-<code>pkg install python</code><br>
+<code>pkg install python3</code><br>
 
 <code>pkg install git</code><br>
 
 <code>git clone https://github.com/EthicalHackingLK/WH-Spam.git</code><br>
 
-<code>python main.py</code><br>
+<code>python3 main.py</code><br>
 
 
 <h1 >Linux Commands</h1>
@@ -24,4 +24,4 @@
 
 <code>cd WH-Spam</code>
 
-<code>python main.py</code><br>
+<code>python3 main.py</code><br>
