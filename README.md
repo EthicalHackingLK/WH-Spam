@@ -18,7 +18,7 @@
 
 <code>sudo apt update && upgrade</code>
 
-<code>sudo apt install python</code>
+<code>sudo apt install python3</code>
 
 <code>git clone https://github.com/EthicalHackingLK/WH-Spam.git</code><br>
 
