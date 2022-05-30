@@ -1,5 +1,5 @@
 # WH-Spam
-<h1 >Termux Commands</h1>
+<h1 >[+]Termux Command List</h1>
 
 
 <code>pkg update && upgrade </code><br>
@@ -13,7 +13,7 @@
 <code>python3 main.py</code><br>
 
 
-<h1 >Linux Commands</h1>
+<h1 >[+]Linux Command List</h1>
 
 
 <code>sudo apt update && upgrade</code>
