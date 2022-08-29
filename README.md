@@ -10,6 +10,10 @@
 
 <code>git clone https://github.com/EthicalHackingLK/WH-Spam.git</code><br>
 
+<code>cd WH-Spam</code>
+
+<code>pip install requests</code>
+
 <code>python3 main.py</code><br>
 
 
@@ -23,5 +27,7 @@
 <code>git clone https://github.com/EthicalHackingLK/WH-Spam.git</code><br>
 
 <code>cd WH-Spam</code>
+
+<code>pip install requests</code>
 
 <code>python3 main.py</code><br>
