@@ -129,7 +129,6 @@ def auther():
     os.system("python3 main.py")
 
 def update():
-    os.system("cat .version.txt")
     os.system("cd")
     os.system("rm -rf WH-Spam")
     os.system("git clone https://github.com/EthicalHackingLK/WH-Spam")
@@ -148,7 +147,7 @@ def menu():
     elif(ehlk==4):
         update()
     elif(ehlk==5):
-        print("Thanks for using my tool")
+        Write.Print("Thanks for using my tool",Colors.blue_to_purple)
         exit
     else:
         print(" Wrong input \n")
