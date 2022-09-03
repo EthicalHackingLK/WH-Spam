@@ -147,7 +147,7 @@ def menu():
     elif(ehlk==4):
         update()
     elif(ehlk==5):
-        Write.Print("Thanks for using my tool",Colors.blue_to_purple)
+        Write.Print("Thanks for using my tool\n",Colors.blue_to_purple)
         exit
     else:
         print(" Wrong input \n")
@@ -158,5 +158,6 @@ if __name__=="__main__":
     Anime.Fade(Center.Center(main), Colors.red_to_yellow, Colorate.Vertical, enter=True)
     Write.Print(mylogo, Colors.blue_to_white, interval=0.005)
     Write.Print(make,Colors.green_to_cyan,interval=0.005)
+    print("")
     print("")
     menu()
