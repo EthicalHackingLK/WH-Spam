@@ -156,8 +156,8 @@ def menu():
 if __name__=="__main__":
     os.system("xdg-open https://github.com/EthicalHackingLK")
     Anime.Fade(Center.Center(main), Colors.red_to_yellow, Colorate.Vertical, enter=True)
-    Write.Print(mylogo, Colors.blue_to_white, interval=0.5)
-    Write.Print(make,Colors.green_to_cyan,interval=0.5)
+    Write.Print(mylogo, Colors.blue_to_white, interval=0.02)
+    Write.Print(make,Colors.green_to_cyan,interval=0.02)
     print("")
     print("")
     menu()
