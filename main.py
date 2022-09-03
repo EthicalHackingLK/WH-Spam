@@ -1,9 +1,7 @@
 import os 
-os.system("pip install pystyle")
 import sys 
 import time 
 import random
-from turtle import color
 import requests
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System, Box
 
@@ -12,11 +10,11 @@ myip = requests.get('https://www.wikipedia.org').headers['X-Client-IP']
 def kaviru():
     os.system("clear")
     random.choice(mylogo)
-    print("\033[31m NOTE : Please Do not type  + \n")
-    contry = input("Enter Your Country code : ")
-    numb=input("Enter A victim phone no : ")
+    Write.Print("NOTE : Please Do not type  + \n",Colors.green_to_white, interval=0.05)
+    contry = Write.Input("[+] Enter Your Country code : ",Colors.green_to_white, interval=0.05)
+    numb=Write.Input("[+] Enter A victim phone no : ",Colors.green_to_white, interval=0.05)
     num = contry+numb
-    spam=input("Enter Sms : ")
+    spam=Write.Input("[+] Enter Sms : ", Colors.green_to_white, interval=0.05)
     user2 = "\n target phone is : "+num
     messs = "\n Message is : "+spam
     myip2 = "\n Public Ip is : "+myip
@@ -41,11 +39,11 @@ def love():
     os.system("clear")
     #logo()
     txt = "IloveYou" 
-    print("\033[31m NOTE : Please Do not type  + \n")
-    contry = input("Enter Your Country code : ")
-    numb=input("Enter A victim phone no : ")
+    Write.Print("[+] NOTE : Please Do not type  + \n",Colors.green_to_white, interval=0.05)
+    contry = Write.Input("[+]Enter Your Country code : ", Colors.green_to_white, interval=0.05)
+    numb=Write.Input("[+] Enter A victim phone no : ",Colors.green_to_white, interval=0.05)
     num = contry+numb
-    spam=input(" Enter Your Lover name : ")
+    spam=Write.Input("[+] Enter Your Lover name : ",Colors.green_to_white, interval=0.05)
     user2 = "\n Victim phone is : "+num
     mess = "I Love You "
     messs = "\n Message is : "+mess+spam
@@ -121,13 +119,14 @@ menu_note=Box.DoubleCube(
     [05] Exit
     """)
 
-def auther():
-    auther_note=f"""
+auther_note=f"""
     Auther : Ethical Hacking 🇱🇰
     About : WH-Spam
     """[1:]
+
+def auther():
     Write.Print(auther_note,Colors.red_to_yellow)
-    return menu
+    os.system("python3 main.py")
 
 def update():
     os.system("cat .version.txt")
@@ -158,8 +157,7 @@ def menu():
 if __name__=="__main__":
     os.system("xdg-open https://github.com/EthicalHackingLK")
     Anime.Fade(Center.Center(main), Colors.red_to_yellow, Colorate.Vertical, enter=True)
-    os.system("clear")
-    Write.Print(mylogo, Colors.blue_to_white, interval=0.00002)
-    Write.Print(make,Colors.green_to_cyan,interval=0.00002)
+    Write.Print(mylogo, Colors.blue_to_white, interval=0.005)
+    Write.Print(make,Colors.green_to_cyan,interval=0.005)
     print("")
     menu()
