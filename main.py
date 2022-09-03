@@ -57,14 +57,14 @@ def love():
         print()
         #l = open("r.txt","w")
         #l.write(wb)
-        print(f"[✓] Sending ",Colors.black_to_red)
+        print(f"[✓] Sending ",Colors.white_to_red)
         whatsapp = os.system(wb)
         time.sleep(4)
         if whatsapp == 0:
-            print(f"Sended",Colors.black_to_red)
+            print(f"Sended",Colors.white_to_red)
             pass
         else:
-            print(f"Failed",Colors.black_to_red)
+            print(f"Failed",Colors.white_to_red)
         time.sleep(0.1)
     return love
 
