@@ -136,8 +136,8 @@ def update():
     os.system("python3 main.py")
 def menu():
  
-    Write.Print(menu_note,Colors.green_to_cyan,interval=0.00002)
-    ehlk = int(Write.Input(" [+] Enter a No >> ", Colors.green_to_white, interval=0.05))
+    Write.Print(menu_note,Colors.green_to_cyan,interval=0.02)
+    ehlk = int(Write.Input(" [+] Enter a No >> ", Colors.green_to_white, interval=0.01))
     if(ehlk==1):
         love()
     elif(ehlk==2):
@@ -156,8 +156,8 @@ def menu():
 if __name__=="__main__":
     os.system("xdg-open https://github.com/EthicalHackingLK")
     Anime.Fade(Center.Center(main), Colors.red_to_yellow, Colorate.Vertical, enter=True)
-    Write.Print(mylogo, Colors.blue_to_white, interval=0.02)
-    Write.Print(make,Colors.green_to_cyan,interval=0.02)
+    Write.Print(mylogo, Colors.blue_to_white, interval=0.005)
+    Write.Print(make,Colors.green_to_cyan,interval=0.005)
     print("")
     print("")
     menu()
