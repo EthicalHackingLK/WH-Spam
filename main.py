@@ -109,7 +109,7 @@ mylogo = f"""
         ▀▄▀▄▀ █▀█ ░░ ▄█ █▀▀ █▀█ █░▀░█
 
                        V.1.0\n\n"""[1:]                     
-make=Center.XCenter(Box.Lines("Tool By Ethical Hacking LK"))
+make=CBox.Lines("Tool By Ethical Hacking LK")
 
 menu_note=Center.XCenter(Box.DoubleCube(
 """please choice a no..\n
