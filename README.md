@@ -30,7 +30,7 @@
 
 <code>cd WH-Spam</code>
 
-<code>pip install requests</code
+<code>pip install requests</code>
 
 <code>pip install pystyle</code>
 
