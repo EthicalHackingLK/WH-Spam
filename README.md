@@ -14,6 +14,8 @@
 
 <code>pip install requests</code>
 
+<code>pip install pystyle</code>
+
 <code>python3 main.py</code><br>
 
 
@@ -28,6 +30,8 @@
 
 <code>cd WH-Spam</code>
 
-<code>pip install requests</code>
+<code>pip install requests</code
+
+<code>pip install pystyle</code>
 
 <code>python3 main.py</code><br>
