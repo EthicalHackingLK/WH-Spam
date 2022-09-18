@@ -1,22 +1,21 @@
 # WH-Spam
-<h1 >[+]Termux Command List</h1>
 
+##[+]Termux Command List
 
-<code>pkg update && upgrade </code><br>
+```
+  pkg update && upgrade
+```
 
-<code>pkg install python3</code><br>
+  pkg install python3
 
-<code>pkg install git</code><br>
+  pkg install git
 
-<code>git clone https://github.com/EthicalHackingLK/WH-Spam.git</code><br>
+  git clone https://github.com/EthicalHackingLK/WH-Spam.git
 
-<code>cd WH-Spam</code>
+  cd WH-Spam
 
-<code>pip install requests</code>
+  pip install requests
 
-<code>pip install pystyle</code>
-
-<code>python3 main.py</code><br>
 
 
 <h1 >[+]Linux Command List</h1>
