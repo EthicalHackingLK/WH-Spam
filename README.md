@@ -1,6 +1,6 @@
 # WH-Spam
 
-##[+]Termux Command List
+## [+]Termux Command List
 
 ```
   pkg update && upgrade
