@@ -5,16 +5,24 @@
 ```
   pkg update && upgrade
 ```
-
+```
   pkg install python3
+  ```
 
-  pkg install git
+```
+pkg install git
+```
 
+ ``` 
   git clone https://github.com/EthicalHackingLK/WH-Spam.git
+  ```
 
+  ```
   cd WH-Spam
-
+  ```
+```
   pip install requests
+  ```
 
 
 
