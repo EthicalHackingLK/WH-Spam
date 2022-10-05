@@ -26,19 +26,33 @@ pkg install git
 
 
 
-<h1 >[+]Linux Command List</h1>
+## [+]Linux Command List
 
 
-<code>sudo apt update && upgrade</code>
+```
+sudo apt update && upgrade
+```
 
-<code>sudo apt install python3</code>
+```
+sudo apt install python3
+```
 
-<code>git clone https://github.com/EthicalHackingLK/WH-Spam.git</code><br>
+```
+git clone https://github.com/EthicalHackingLK/WH-Spam.git
+```
 
-<code>cd WH-Spam</code>
+```
+cd WH-Spam
+```
 
-<code>pip install requests</code>
+```
+pip install requests
+```
 
-<code>pip install pystyle</code>
+```
+pip install pystyle
+```
 
-<code>python3 main.py</code><br>
+```
+python3 main.py
+```
